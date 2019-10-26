@@ -40,7 +40,7 @@ func handleClient(conn net.Conn) {
 			break
 		}
 
-		message := string(request)[0:4] // remove last "\r", "\n"
+		message := string(request)[0 : length-2] // remove last "\r", "\n"
 		log.Printf("received length = %d, message = %s", length, message)
 
 		if message == "quit" {
