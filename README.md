@@ -1,5 +1,5 @@
-# connection-samples
+# connect-message-samples
 
 ## About This
 
-様々な通信のサンプル。
+様々なメッセージ通信のサンプル。
